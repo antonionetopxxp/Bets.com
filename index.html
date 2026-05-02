@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melhores Sites de Cassino</title>
     <style>
-        /* Reset básico e fontes */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -14,37 +13,34 @@
         }
 
         body {
-            background-color: #f4f0fa; /* Fundo roxo bem claro */
+            background-color: #f4f0fa;
             color: #333;
-            padding: 15px;
+            padding: 20px;
         }
 
-        /* Container principal */
         .casino-container {
             max-width: 600px;
             margin: 0 auto;
             background: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(138, 43, 226, 0.1);
-            padding: 20px;
-            border-top: 5px solid #6a0dad; /* Detalhe roxo no topo */
+            box-shadow: 0 4px 15px rgba(138, 43, 226, 0.15);
+            padding: 24px;
+            border-top: 6px solid #6a0dad;
         }
 
-        /* Título da seção */
         .section-title {
-            color: #6a0dad; /* Roxo escuro */
+            color: #6a0dad;
             text-align: center;
-            font-size: 1.4rem;
+            font-size: 1.45rem;
             margin-bottom: 25px;
             font-weight: 700;
         }
 
-        /* Item de cada cassino */
         .casino-item {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 14px 0;
+            padding: 16px 0;
             border-bottom: 1px solid #efe8f7;
         }
 
@@ -52,31 +48,31 @@
             border-bottom: none;
         }
 
-        /* Lado esquerdo: Número, Logo e Descrição */
         .casino-info {
             display: flex;
             align-items: center;
-            width: 78%;
+            width: 72%;
         }
 
         .casino-number {
             font-weight: bold;
-            color: #9b51e0; /* Roxo vibrante */
-            font-size: 1.1rem;
-            margin-right: 12px;
-            min-width: 15px;
+            color: #9b51e0;
+            font-size: 1.15rem;
+            margin-right: 14px;
+            min-width: 18px;
         }
 
+        /* Imagens/Logos um pouco maiores */
         .casino-logo {
-            width: 44px;
-            height: 44px;
-            border-radius: 8px;
-            margin-right: 12px;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            margin-right: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             background-size: cover;
             background-position: center;
         }
@@ -88,15 +84,15 @@
 
         .casino-name {
             font-weight: bold;
-            font-size: 0.95rem;
-            color: #311b92; /* Roxo profundo */
-            margin-bottom: 3px;
+            font-size: 1rem;
+            color: #311b92;
+            margin-bottom: 4px;
         }
 
         .casino-desc {
-            font-size: 0.75rem;
-            color: #665c84; /* Tom de roxo acinzentado */
-            line-height: 1.2;
+            font-size: 0.78rem;
+            color: #665c84;
+            line-height: 1.3;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
@@ -104,44 +100,59 @@
             text-overflow: ellipsis;
         }
 
-        /* Botão compacto (Modificado) */
+        /* Botões maiores com cores alternadas */
         .casino-btn {
-            background-color: #8a2be2; /* Roxo neon/vibrante */
             color: white;
             border: none;
-            border-radius: 6px;
-            padding: 6px 16px;
-            font-size: 0.8rem;
+            border-radius: 8px;
+            padding: 10px 18px; /* Maior */
+            font-size: 0.88rem; /* Maior */
             font-weight: bold;
             cursor: pointer;
             text-decoration: none;
-            transition: background 0.2s ease;
+            transition: opacity 0.2s ease, transform 0.1s ease;
             white-space: nowrap;
-            width: auto;
             text-align: center;
         }
 
-        .casino-btn:hover {
-            background-color: #6a0dad;
+        .casino-btn:active {
+            transform: scale(0.96);
         }
 
-        /* Responsividade para telas menores */
+        .btn-color-1 { background-color: #ff5722; }
+        .btn-color-2 { background-color: #00bcd4; }
+        .btn-color-3 { background-color: #e91e63; }
+        .btn-color-4 { background-color: #4caf50; }
+        .btn-color-5 { background-color: #3f51b5; }
+        .btn-color-6 { background-color: #ff9800; }
+        .btn-color-7 { background-color: #9c27b0; }
+        .btn-color-8 { background-color: #795548; }
+        .btn-color-9 { background-color: #607d8b; }
+        .btn-color-10 { background-color: #2196f3; }
+
         @media (max-width: 480px) {
             .casino-item {
-                flex-direction: row; /* Mantém na mesma linha mas ajusta os tamanhos */
-                gap: 8px;
+                flex-direction: row;
+                gap: 6px;
             }
             .casino-info {
-                width: 70%;
+                width: 66%;
             }
             .casino-logo {
-                width: 38px;
-                height: 38px;
+                width: 42px;
+                height: 42px;
                 margin-right: 8px;
+                font-size: 0.75rem;
             }
             .casino-btn {
-                padding: 6px 10px;
+                padding: 8px 12px;
                 font-size: 0.75rem;
+            }
+            .casino-name {
+                font-size: 0.88rem;
+            }
+            .casino-desc {
+                font-size: 0.7rem;
             }
         }
     </style>
@@ -160,7 +171,7 @@
                     <span class="casino-desc">Convide 1 pessoa e receba R$55,00 + Dois Ganhos! O prêmio máximo é de R$500.000,00</span>
                 </div>
             </div>
-            <a href="https://seu-link-1.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-1.com" class="casino-btn btn-color-1" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -172,7 +183,7 @@
                     <span class="casino-desc">Marca totalmente nova, cadastre-se e receba até R$ 55.555</span>
                 </div>
             </div>
-            <a href="https://seu-link-2.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-2.com" class="casino-btn btn-color-2" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -184,7 +195,7 @@
                     <span class="casino-desc">Para a marca mais recente, os agentes podem ganhar até 5% de comissão.</span>
                 </div>
             </div>
-            <a href="https://seu-link-3.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-3.com" class="casino-btn btn-color-3" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -196,7 +207,7 @@
                     <span class="casino-desc">Bônus de 10 milhões em dinheiro todo dia 5 de cada mês</span>
                 </div>
             </div>
-            <a href="https://seu-link-4.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-4.com" class="casino-btn btn-color-4" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -208,7 +219,7 @@
                     <span class="casino-desc">Cadastre-se para receber até R$ 66.666</span>
                 </div>
             </div>
-            <a href="https://seu-link-5.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-5.com" class="casino-btn btn-color-5" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -220,7 +231,7 @@
                     <span class="casino-desc">Receba R$ 100,00 de graça Sorteio de roleta convide amigos.</span>
                 </div>
             </div>
-            <a href="https://seu-link-6.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-6.com" class="casino-btn btn-color-6" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -232,7 +243,7 @@
                     <span class="casino-desc">Cadastre-se para obter a sua promoção especial do dia.</span>
                 </div>
             </div>
-            <a href="https://seu-link-7.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-7.com" class="casino-btn btn-color-7" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -244,7 +255,7 @@
                     <span class="casino-desc">Aproveite os novos jackpots diários atualizados nesta temporada.</span>
                 </div>
             </div>
-            <a href="https://seu-link-8.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-8.com" class="casino-btn btn-color-8" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -256,7 +267,7 @@
                     <span class="casino-desc">Bônus de boas-vindas triplo para novos usuários cadastrados.</span>
                 </div>
             </div>
-            <a href="https://seu-link-9.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-9.com" class="casino-btn btn-color-9" target="_blank">jogo</a>
         </div>
 
         <div class="casino-item">
@@ -268,7 +279,7 @@
                     <span class="casino-desc">Cashback de 100% no seu primeiro depósito realizado hoje.</span>
                 </div>
             </div>
-            <a href="https://seu-link-10.com" class="casino-btn" target="_blank">jogo</a>
+            <a href="https://seu-link-10.com" class="casino-btn btn-color-10" target="_blank">jogo</a>
         </div>
     </div>
 
